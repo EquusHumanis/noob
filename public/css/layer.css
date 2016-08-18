@@ -3,6 +3,16 @@ body, .panel {
 	font-family: 'Comfortaa', cursive;
 }
 
+body {
+	background-color: black;
+    background: url(../../images/bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+}
+
 .panel {
 	border: 1px solid #222222;
 }
@@ -65,3 +75,22 @@ img {
 	margin: 0 auto;
 	width: 600px;
 }*/
+
+.grosTitre {
+	text-align: center;
+	margin-top: 10%;
+	font-size: 6rem;
+	color: #fff;
+}
+
+.home {
+	margin: 0 auto;
+	max-width: 70%;
+	background-color: #ccc;
+	border-radius: 10px;
+	padding: 2%;
+}
+
+label {
+	color: #fff;
+}
