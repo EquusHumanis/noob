@@ -85,7 +85,7 @@ img {
 
 .home {
 	margin: 0 auto;
-	max-width: 70%;
+	max-width: 62%;
 	background-color: #ccc;
 	border-radius: 10px;
 	padding: 2%;
@@ -93,4 +93,9 @@ img {
 
 label {
 	color: #fff;
+}
+
+.footerTxt {
+	float: none;
+	text-align: center;
 }
